@@ -1,0 +1,52 @@
+### enviroment yaratish: python -m venv enviroment
+
+### 1. Agar siz Windowsdan foydalansangiz
+### 2. env ni activate qilishdan oldin: Set-ExecutionPolicy Unrestricted -Force
+### 3. env\Scripts\activate
+
+### 1. Agar siz Mack yoki Ubuntudan foydalansangiz
+### 2. env\bin\activate
+
+
+
+### requirements.txt -> bu bizni ishlatgan kutubxona yoki framework versiyalarini saqlovchi file.
+
+### pip freeze > requirements.txt -> saqlash
+
+### pip freeze -r requirements.txt -> o'rnatish
+
+### Django project yaratishni boshlaymiz
+### django-admin startproject config . # bu kamanda project sozlamalarini yaratadi
+### django-admin startproject config . # bu kamanda project sozlamalarini yaratadi
+### python manage.py migrate  # bu kamanda ma'lumot saqlash uchun (database, sqlite3) ni faollashtiradi
+### python manage.py runserver # bu kamanda django loyihamizni ishga tushiradi
+### python manage.py createsuperuser # bu kamanda django loyihamizni superuser yaratadi
+
+### python manage.py startapp app_name 
+### django-admin startapp app_name 
+
+"""
+Models bu bizni projectimizni skleti
+"""
+
+### MVT bu template bilan ishlash, Template bu html filelar
+### MVT o'zi nima? Models, views, templates 
+
+
+### python manage.py makemigrations  => migrations yaratib beradi. => database tiliga o'girib beradi. Biror model nomi yoki table qoshilganda migrate qilinadi
+### python manage.py migrate  => bu database ga saqlab qo'yadi. Biror model nomi yoki table qoshilganda migrate qilinadi
+
+
+
+### null=True => database ga null bo'lish uchun ruxsat beradi.  
+### blank=True => filed yoki label uchun hech narsa kiritmaslikka ruxsat beradi.
+
+
+### Github
+
+
+#1. git init
+#2. git add .
+#3. git commit -m 'first commit'
+#4. git remote add origin https://github.com/github-first-username/First-Test-Project.git
+#5. git push origin master
